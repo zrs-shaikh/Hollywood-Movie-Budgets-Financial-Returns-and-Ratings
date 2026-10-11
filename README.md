@@ -4,6 +4,10 @@ Authors: Zainab Shaikh and Ein Aung\
 Project Description: 
 The goal of this project is to investigate the primary drivers of commercial and critical success in the global cinema industry by analyzing tens of thousands of films across different genres. We will take a closer look at the production budgets, audience and critical ratings, global box office revenues and more. We will also look at their relationships to each other in order to evaluate whether blockbuster budgets guarantee higher financial returns or not. Additionally, we will also analyze how reviews connect to financial success and how genre popularity changes over time. The aim of this project is to offer useful insights for filmmakers, investors, movie fans or anyone looking to understand the business of modern filmmaking.\
 
+Interface Plan:\
+The entire project will be developed and executed in Jupyter and Google Colab (.ipynb), and will include markdown cells for explanations and code cells for execution. We will incorporate ipywidgets within Colab to let users filter movie data, select specific genres, and adjust budget or rating thresholds on the fly. Results, statistical summaries, and visual charts will be rendered directly below each corresponding code block for an easy reading experience.
+
+
 Data Analysis and Visualization Plan (written by Ein Aung):\
 We will start off by cleaning the data before we do any analysis. Any missing data such as missing budgets and revenues will be removed and we will also organize the data by genres. This way, we can use basic statistics and tests such as ANOVA test to find out if genre has an effect on the rating. For our visualization, we plan on generating a scatter plot to showcase Budget vs. Revenue, a bar chart for the average Return on Investment (ROI) or total gross revenue categorized by genre, a correlation heatmap to demonstrate the relationships among revenue, budget, popularity and more. Additionally, we will use a time-series plot or line chart that tracks
 
